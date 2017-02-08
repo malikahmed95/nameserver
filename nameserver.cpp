@@ -38,6 +38,7 @@ struct name_record
   string rank;         // Rank of this Name in terms of frequency
 };
 
+// Maps for holding the name data
 map<string,name_record> lname_map;
 map<string,name_record> fname_map;
 map<string,name_record> mname_map;
@@ -45,7 +46,7 @@ map<string,name_record>::iterator it;
 
 /*
  * Read the US Census data file "dist.all.last" and load it into an
- * in memory b+tree with name as the key.
+ * C++ STL MAP with name as the key.
  *
  * Return 1 if success, 0 if fail
  */
