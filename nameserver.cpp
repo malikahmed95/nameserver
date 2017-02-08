@@ -8,8 +8,7 @@
 * is to demonstrait how a background process can serve up information to a web program,
 * saving the web program from the work of intiallizing large data structures for every
 * call.
-* 
-* 
+*  
 *
 ***************************************************************************/
 #include <sys/types.h>
@@ -74,7 +73,7 @@ int createnamemap(map<string,name_record> &name_map ,string filename) {
 }
 
 
-/* Server main line,create name MAP, wait for and serve requests */
+/* Server main line: create name MAPs, wait for and serve requests */
 int main() {
   
   string inMessage, outMessage,name,percent,rank,type;
@@ -122,7 +121,8 @@ int main() {
 	name = inMessage.substr(pos,2000);
 	cout << "Message: " << type << " : " << name << endl;
 
-	
+	// Set curMap to be the map requested
+	// Set it to be an iterator for the appropriate map
 	if (type == "$LAST") {
 	  //Get the closest match
 	  it = lname_map.lower_bound (name);
