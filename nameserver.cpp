@@ -72,7 +72,7 @@ int createnamemap(map<string,name_record> &name_map ,string filename) {
 }
 
 
-/* Server main line,create name MAP, wait for and serve requests */
+/* Server main line: create name MAPs, wait for and serve requests */
 int main() {
   
   string inMessage, outMessage,name,percent,rank,type;
