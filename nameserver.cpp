@@ -1,7 +1,7 @@
 /***************************************************************************
 * nameservercpp  -  Program to serve of last name statistics
  *
-* copyright : (C) 2009 by Jim Skon
+* copyright : (C) 2009-2017 by Jim Skon
 *
 * This program runs as a background server to a CGI program, providinging US Census
 * Data on the frequency of names in response to requestes.  The rational for this 
