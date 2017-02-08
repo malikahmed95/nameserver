@@ -8,8 +8,7 @@
 * is to demonstrait how a background process can serve up information to a web program,
 * saving the web program from the work of intiallizing large data structures for every
 * call.
-* 
-* 
+*  
 *
 ***************************************************************************/
 #include <sys/types.h>
@@ -121,7 +120,8 @@ int main() {
 	name = inMessage.substr(pos,2000);
 	cout << "Message: " << type << " : " << name << endl;
 
-	
+	// Set curMap to be the map requested
+	// Set it to be an iterator for the appropriate map
 	if (type == "$LAST") {
 	  //Get the closest match
 	  it = lname_map.lower_bound (name);
