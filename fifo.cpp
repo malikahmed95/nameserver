@@ -1,7 +1,7 @@
 /***************************************************************************
  fifo.cpp  -  code to allow interprocess communication via a fifo, or "names pipe"
  *
-* copyright : (C) 2009 by Jim Skon
+* copyright : (C) 2009-2017 by Jim Skon, Kenyon College
 *
 * This code permits the creation and use of FIFOs for communication
 * between processes.  
