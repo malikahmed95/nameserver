@@ -33,7 +33,7 @@ std::string StringToUpper(std::string myString)
     }
   return myString;
 }
-
+#superlols
 // fifo for communication
 string receive_fifo = "Namereply";
 string send_fifo = "Namerequest";
