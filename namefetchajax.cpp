@@ -1,3 +1,6 @@
+/* Name client program using AJAX
+ * By Jim Skon
+ */
 #include <iostream>
 // Stuff for AJAX
 #include "cgicc/Cgicc.h"
